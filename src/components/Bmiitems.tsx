@@ -59,7 +59,7 @@ export default function BmiItems({}: Props) {
   };
   return (
     <div className="flex justify-center items-center">
-      <Card className="bg-transparent w-[50%] backdrop-blur-md shadow-md p-6 my-12">
+      <Card className="bg-transparent w-[50%] backdrop-blur-md shadow-md p-6">
         <CardContent>
           <div className="">
             <h1 className="text-white text-[32px] font-bold text-center mt-4">
@@ -68,7 +68,7 @@ export default function BmiItems({}: Props) {
 
             <Form {...form}>
               <form onSubmit={form.handleSubmit(OnSubmit)}>
-                <div className="mt-8">
+                <div className="mt-6">
                   <h2 className="text-[white] text-[27px] font-bold text-center">
                     Your Height
                   </h2>
@@ -115,7 +115,7 @@ export default function BmiItems({}: Props) {
                     </FormItem>
                   )}
                 />
-                <div className="mt-8">
+                <div className="mt-6">
                   <h2 className="text-[white] text-[27px] font-bold text-center">
                     Your Weight
                   </h2>

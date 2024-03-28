@@ -19,7 +19,7 @@ type Props = {};
 
 const select_db: valueType[] = Select;
 
-export default function page({}: Props) {
+export default function Page({}: Props) {
   const form = useForm<currencyType>({
     resolver: zodResolver(currencySchema),
     defaultValues: { currency1: "0", currency2: "0" },
