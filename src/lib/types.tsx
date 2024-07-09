@@ -37,3 +37,20 @@ export type valueType = {
 export type ExchangeRates = {
   [key: string]: number;
 };
+
+export type weatherType = {
+  id: number;
+  name: string;
+  date: string;
+  week: dayType[];
+  humidity: string;
+  imageurl: string;
+  text: string;
+};
+
+export type dayType = {
+  id: number;
+  day: string;
+  image: string;
+  temperture: string;
+};

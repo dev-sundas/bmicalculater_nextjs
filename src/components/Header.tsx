@@ -13,6 +13,9 @@ export default function Header({}: Props) {
         <li className="hover:underline">
           <Link href={"/currency_converter"}>CURRENCY COVERTER</Link>
         </li>
+        <li className="hover:underline">
+          <Link href={"/weather_app"}>WEATHER</Link>
+        </li>
       </ul>
     </nav>
   );
